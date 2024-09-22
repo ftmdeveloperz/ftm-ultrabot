@@ -19,7 +19,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '7913243499:AAGiHTvlWK8x2SCIRN6LAZZqHPNyE0U
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7042535787').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/ftmdeveloperz")
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002060302076'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002209201816'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/ftmmovieworldofficial')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002060302076').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ftm:ftm@ftmbot.pb9ec.mongodb.net/?retryWrites=true&w=majority&appName=ftmbot")
