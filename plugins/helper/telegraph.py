@@ -40,3 +40,4 @@ async def telegraph(bot, message):
             InlineKeyboardButton(text="❌ ᴄʟᴏsᴇ ❌", callback_data="close_data")
             ]])
     )
+
