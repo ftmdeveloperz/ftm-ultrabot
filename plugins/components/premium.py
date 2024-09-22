@@ -188,3 +188,5 @@ async def bought(client, message):
             )
         )
         await msg.edit_text('<b>Your screenshot has been sent to Admins</b>')
+
+
